@@ -1,0 +1,97 @@
+body{
+	font-family: "French Script MT";
+	font-size: xx-large;
+	font-style: italic;
+	color: white;
+}
+#container{
+	  	margin: 0px;
+        padding: 0px;
+        margin-left: 150px;
+        width: 960px;
+        height: 700px;
+        color: white;	                font-size: 40px;
+}
+#form{
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+}
+input.rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 15px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+input.rounded:focus {
+	border-color: #339933;
+}
+#signup{
+	font-family:"Comic Sans MS";
+	font-size: 20px;
+	font-style: normal;
+	color: #FFFFFF;
+}
+input.button {
+  -moz-border-radius: 25px;
+  -moz-box-shadow: #6E7849 0px 0px 10px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #b8db39;
+  background-image: -moz-radial-gradient(center 90deg, circle cover, #f4f21f, #b8db39);
+  background-image: -ms-radial-gradient(center 90deg, circle cover, #f4f21f, #b8db39);
+  background-image: -webkit-radial-gradient(center 90deg, circle cover, #f4f21f, #b8db39);
+  background-image: radial-gradient(center 90deg, circle cover, #f4f21f, #b8db39);
+  border-radius: 25px;
+  border: 2px solid #4a5032;
+  box-shadow: #6E7849 0px 0px 10px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  margin: auto;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: #000000 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+input.button:hover {
+  padding: 15px;
+}
+#opaque{
+	background-color: purple;
+	opacity:0.7;
+	filter:Alpha(opacity=100); /* IE8 and earlier */
+	margin-right: 100px;
+	font-family: "Brush Script MT", cursive;
+	font-size: 35px; 
+	width: 960px;
+	margin-left: 0px;
+}
+
+#logout{
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	text-align:right;
+	margin-right: 60px;
+}#setting{	position:absolute;	top: 50px;	right: 0px;	width: 100px;	text-align:right;	margin-right: 130px;}
+#menu{
+	font-family: "Curlz MT";
+	font-size: 19px;
+}
+#bottom{
+	margin-bottom: 0px;
+	top: 600px;
+	right:400px;
+}
